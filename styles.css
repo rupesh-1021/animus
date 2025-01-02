@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: bounce 2s ease-in-out infinite;
+}
+.circle{
+  background-image: linear-gradient(180deg, yellow,orange);
+  display: flex;
+  border: none;
+  border-radius: 50%;
+  padding: 100px;
+}
+@keyframes bounce{
+  0%{
+    transform: translateY(50px);
+  }
+  50%{
+    transform: translateY(100px);
+  }
+  100%{
+    transform: translateY(150px);
+  }
+
+}
